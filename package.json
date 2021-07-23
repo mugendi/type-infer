@@ -1,32 +1,32 @@
 {
-  "dependencies": {},
-  "name": "type-infer",
-  "version": "0.1.0",
-  "description": "Infer data types with specifity. A String type can be further differentiated into TEXT, TINYTEXT and so on. Built to be compatible with MYSQL Data Types!",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mugendi/type-infer.git"
-  },
-  "keywords": [
-    "type",
-    "infer",
-    "inference",
-    "datatype",
-    "variable",
-    "mysql"
-  ],
-  "author": "Anthony Mugendi <ngurumugz@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mugendi/type-infer/issues"
-  },
-  "homepage": "https://github.com/mugendi/type-infer#readme"
+    "dependencies": {},
+    "name": "type-infer",
+    "version": "0.1.1",
+    "description": "Infer data types with specifity. A String type can be further differentiated into TEXT, TINYTEXT and so on. Built to be compatible with MYSQL Data Types!",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mugendi/type-infer.git"
+    },
+    "keywords": [
+        "type",
+        "infer",
+        "inference",
+        "datatype",
+        "variable",
+        "mysql"
+    ],
+    "author": "Anthony Mugendi <ngurumugz@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mugendi/type-infer/issues"
+    },
+    "homepage": "https://github.com/mugendi/type-infer#readme"
 }
