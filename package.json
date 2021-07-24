@@ -1,7 +1,7 @@
 {
     "dependencies": {},
     "name": "type-infer",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Infer data types with specifity. A String type can be further differentiated into TEXT, TINYTEXT and so on. Built to be compatible with MYSQL Data Types!",
     "main": "index.js",
     "directories": {

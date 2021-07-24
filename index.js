@@ -30,9 +30,7 @@ function type(value, opts = {}) {
         parseNumber: true
     }, opts);
 
-    let type, testVal, strVal = value.toString().trim();
-
-
+    let type, testVal, strVal = value ? value.toString().trim() : null;
 
     if (value === null) type = "Null";
     else if (value === undefined) type = "Undefined";
@@ -73,8 +71,8 @@ function type(value, opts = {}) {
         opts.specify(type, value) :
         specify(type, strVal);
 
-
-    value = value.toString() == strVal ? value : strVal;
+    if (value)
+        value = value.toString() == strVal ? value : strVal;
 
     return {
         value,
